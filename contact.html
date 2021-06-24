@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Power Tech | Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--webfont-->
+
+<!--/webfont-->
+ <!-- Bootstrap core JavaScript-->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--bootstrap-->
+			<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--css-->
+			<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<!--coustom css-->
+			<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!--default-js-->
+			<script src="js/jquery-2.1.4.min.js"></script>
+		<!--bootstrap-js-->
+			<script src="js/bootstrap.min.js"></script>
+
+<!-- js -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+</head>
+<body>
+<div class="header">
+	<div class="banner-top">
+		<div class="container">
+			<p class="location"><i class="glyphicon glyphicon-map-marker"> </i>317131, Томская область, город Балашиха, пр. Домодедовская, 76</p>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div style="margin-left: 130px;" class="logo"><a href="index.html"><h1> Песок</h1></a></div>
+</div>
+<div class="navigation">
+	<div class="container">
+		<div class="header-nav">
+			<!-- navigation -->
+			<div class="navigation" style="margin-top: 50px;">
+				<nav class="navbar navbar-default">
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav" style="width: 100%!important;">
+
+							<li class="hvr-bounce-to-bottom"><a href="index.html">Главная</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="policy.html">Политика конфиденциальности</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="terms.html">Условия и положения</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="blog.html">Статьи</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="contact.html">Контакты</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+		<!-- //navigation -->
+
+
+		<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function () {
+				$(".top-nav ul").slideToggle("slow", function () {
+				});
+			});
+		</script>
+		<!-- script-for-menu -->
+	</div>
+</div>
+<div class="banner banner5" style="background-color: #0b84a6">
+	<div class="container">
+		<h2>Контакты</h2>
+	</div>
+</div>
+<!--contact-->
+	<div class="mail">
+		<div class="container">
+
+			<div class="mail-grids">
+
+				<div class="col-md-6 contact-form">
+					<form action="thanks.html">
+						<input type="text" placeholder="Новые телефона" >
+						<input type="text" placeholder="Email" >
+						<input type="text" placeholder="Номер телефона" >
+						<textarea  ></textarea>
+						<input type="checkbox" name="terms" value="check" required=""/>
+						<a href="policy.html" target="_blank">
+							Я прочитал и согласен с условиями пользовательского соглашения
+						</a>
+
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!--/contact-->
+<div class="footer" >
+	<div class="container">
+		<div class="footer-grids">
+
+			<div class="col-md-4 recent-posts">
+				<h4>Адрес</h4>
+
+				<ul>
+					<li><span></span>317131, Томская область, город Балашиха, пр. Домодедовская, 76</li>
+					<li><span class="ph-no"></span>+9197874388383</li>
+					<li><span class="mail"></span><a href="#">gkrykova@kalinina.com</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<div class="copyrights">
+	<div class="container">
+		<div class="copyright-left">
+			<p>    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+
+		<div class="clearfix"></div>
+
+	</div>
+	<!---->
+
+
+
+</div>
+
+<div class='cookie-banner'>
+	<p>
+		Сайт использует файлы cookie. Они позволяют узнавать вас и получать информацию о вашем пользовательском опыте.Продолжая просмотр сайта, я соглашаюсь с использованием файлов cookie владельцем сайта в соответствии с <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Политикой cookie</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>
+</body>
+</html>		
